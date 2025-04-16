@@ -1,6 +1,6 @@
 const rollButton = document.getElementById("rollButton");
 const myLabel = document.getElementById("myLabel");
-const max = 100;
+const max = 1000;
 const min = 1;
 
 rollButton.onclick = function () {
