@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    background: linear-gradient(to right, #c865f6, #85b3fd);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    background: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  #rollButton {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-family: cursive;
+    background-color: #7e61ff90;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #rollButton:hover {
+    background-color:#3c2d7c90;
+    transform: scale(1.1);
+  }
+  
+  #myLabel {
+    display: block;
+    margin-top: 25px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #444;
+  }
+  
